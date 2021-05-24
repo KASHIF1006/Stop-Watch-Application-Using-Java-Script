@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: rgb(252,255,244); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(223,229,215,1) 40%, rgba(179,190,173,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+}
+
+.titleHeading{
+    text-align:center;
+    text-shadow: 2px 4px goldenrod;
+    font-family: sofia;
+    font-size: 4vw;
+    padding:5%;
+    color: black;
+    font-style: oblique;
+}
+
+.watchDiv{
+    margin-top:5%;
+    border:15px solid black;
+    border-radius: 25em;
+    background-color: aqua;
+    text-align: center;
+}
+
+#watchId{
+    font-size: 10vw;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#min{
+    font-size: 10vw;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec{
+    font-size: 10vw;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#msec{
+    font-size: 10vw;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonDiv{
+    margin-top:5%;
+    text-align: center;
+}
+
+
+.btn-primary{
+    width: 300px !important;
+    height:70px !important;
+    background: #CE5937 !important;
+    background: -moz-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%) !important;
+    background: -webkit-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%) !important;
+    background: linear-gradient(135deg, #CE5937 0%, #DBE60B 50%, #C59237 100%) !important;
+    font-family:'Courier New', Courier, monospace !important;
+    font-size:25px !important;
+    color: orangered !important;
+    border:2px solid !important;
+    text-shadow: 2.5px 5px 5px grey !important;
+    cursor: pointer !important;
+    border-radius:.65rem !important;
+}
+
+.btn-primary:hover{
+    background: #CE5937 !important;
+    background: -moz-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%) !important;
+    background: -webkit-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%) !important;
+    background: linear-gradient(to right, #CE5937 0%, #E61B69 50%, #C59237 100%) !important;
+    -webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
+    color: mediumseagreen !important;
+}
+  
+@media screen and (max-width:600px){
+    .titleHeading{
+        margin-top:15%;
+        font-size:6vw;
+    }
+    
+    .watchDiv{
+        margin-top:12%;
+        padding: 7%;
+    }
+
+    .buttonDiv{
+        margin-top:15%;
+    }
+
+    .btn-primary{
+        width: 300px !important;
+        height: 50px !important;
+    } 
+}
+
+@media only screen and (max-width: 490px) {
+    .titleHeading{
+        margin-top:20%;
+        font-size:6vw;
+    }
+    
+    .watchDiv{
+        margin-top:15%;
+        padding: 10%;
+    }
+
+    .btn-primary{
+        width: 200px !important;
+        height: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .titleHeading{
+        margin-top:15%;
+        font-size:6vw;
+    }
+    
+    .watchDiv{
+        margin-top:10%;
+        padding: 5%;
+    }
+
+    .btn-primary{
+        width: 200px !important;
+        height: 50px !important;
+    }
+}
